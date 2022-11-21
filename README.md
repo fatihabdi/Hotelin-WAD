@@ -13,6 +13,8 @@ The repository is structured as follows:
 
 ## Installation
 
+## Front End
+
 ### Prerequisites
 
 - ReactJS 18.2.0
@@ -23,3 +25,5 @@ The repository is structured as follows:
 ```bash
 npm i && npm start
 ```
+
+## Back End
