@@ -13,7 +13,7 @@ The repository is structured as follows:
 
 ## Installation
 
-## Front End
+## Front End 
 
 ### Prerequisites
 
