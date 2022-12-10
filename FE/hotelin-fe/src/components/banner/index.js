@@ -3,19 +3,17 @@ import Rajaampat from "../../asset/rajawampat.jpg";
 export default function Banner() {
   return (
     <div
-      className="hero min-h-screen"
+      className=" hero h-[454px]  flex justify-start w-[1263px] mx-32 rounded-[20px]"
       style={{ backgroundImage: `url(${Rajaampat})` }}
     >
-      <div className="hero-overlay bg-opacity-50"></div>
-      <div className="hero-content text-center text-neutral-content">
-        <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-          <p className="mb-5">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+      <div className="hero-content text-left text-neutral-content">
+        <div className="max-w-4xl px-10">
+          <h1 className="mb-4 text-6xl font-bold ">
+            Cari Hotel Sambil rebahan? di Hotelin aja!
+          </h1>
+          <p className="mb-5 text-xl pt-10">
+            Cari hotel bisa lebih mudah, bisa dimanapun dan kapanpun.
           </p>
-          <button className="btn btn-primary">Get Started</button>
         </div>
       </div>
     </div>
